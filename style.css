@@ -1,0 +1,50 @@
+body {
+    background-color: #E0FFE0;
+    color: #000000;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    transition: transform 0.2s;
+    background-color: #69de81;
+    color: #FFFFFF;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #54d0de;
+}
+
+.write-up {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gallery {
+    overflow: hidden;
+}
+
+.gallery img {
+    width: 100%;
+    float: left;
+    transition: transform 0.5s;
+}
+
+.gallery img:hover {
+    transform: scale(1.2);
+}
+
+ul.nav-tabs {
+    background-color: #008000;
+}
+
+ul.nav-tabs li.nav-item a.nav-link {
+    color: #ffffff;
+}
+
+ul.nav-tabs li.nav-item a.nav-link.active {
+    background-color: #27c127;
+}

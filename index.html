@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Fruits'N'Veggies</title>
+    <style>
+        body {
+            background-color: #E0FFE0;
+            color: #000000;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .card {
+            transition: transform 0.2s;
+            background-color: #69de81;
+            color: #FFFFFF;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            background-color: #54d0de;
+        }
+
+        .write-up {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .gallery {
+            overflow: hidden;
+        }
+
+        .gallery img {
+            width: 100%;
+            float: left;
+            transition: transform 0.5s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.2);
+        }
+
+        ul.nav-tabs {
+            background-color: #008000;
+        }
+
+        ul.nav-tabs li.nav-item a.nav-link {
+            color: #ffffff;
+        }
+
+        ul.nav-tabs li.nav-item a.nav-link.active {
+            background-color: #27c127;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="write-up">
+    <p><u><h1>Fruits'N'Veggies</h1></u></p>
+    <p><h5>Your go-to destination for high-quality products. Discover freshness and excellence with every purchase at our online store.</h5></p>
+</div>
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="fruits-tab" data-toggle="tab" href="#fruits">Fruits</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="veggies-tab" data-toggle="tab" href="#veggies">Veggies</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="cart-tab" data-toggle="tab" href="#cart">Cart</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade show active" id="home">
+        <div class="container mt-4">
+            <div class="gallery">
+                <img src="https://static.vecteezy.com/system/resources/previews/001/072/259/original/summer-sale-banner-with-fruit-vector.jpg" alt="Product 1">
+                <img src="https://img.freepik.com/free-vector/world-vegan-day-sale-banner-template_23-2149741503.jpg" alt="Product 2">
+                <img src="https://img.freepik.com/free-vector/flat-horizontal-sale-banner-template-world-vegetarian-day-celebration_23-2150746551.jpg" alt="Product 3">
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-pane fade" id="fruits">
+        <div class="container mt-4">
+            <h2 class="text-center mb-4">Fruits</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="https://img.freepik.com/premium-photo/red-apple-fruit-with-green-leaf-isolated-white-with-clipping-path_252965-317.jpg" class="card-img-top" alt="Fruit 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                            <p class="card-text">$4.99</p>
+                            <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="https://img.freepik.com/premium-photo/ripe-mango-fruits-with-slices-isolated-white_80510-383.jpg" class="card-img-top" alt="Fruit 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Mango</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                            <p class="card-text">$3.99</p>
+                            <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-vector/vector-ripe-yellow-banana-bunch-isolated-white-background_1284-45456.jpg" class="card-img-top" alt="Fruit 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Banana</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                            <p class="card-text">$5.99</p>
+                            <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-pane fade" id="veggies">
+        <div class="container mt-4">
+            <h2 class="text-center mb-4">Veggies</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="https://img.freepik.com/premium-photo/close-up-cauliflower-isolated-white-background-healthy-eco-food-ai-generated_755721-11945.jpg" class="card-img-top" alt="Veggie 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Cauliflower</h5>
+                            <p class="card-text">Lorem ipsum dolor sit.</p>
+                            <p class="card-text">$2.99</p>
+                            <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="https://img.freepik.com/premium-photo/potato-white_362171-1485.jpg" class="card-img-top" alt="Veggie 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Potato</h5>
+                            <p class="card-text">Lorem ipsum dolor sit.</p>
+                            <p class="card-text">$1.99</p>
+                            <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="https://img.freepik.com/premium-photo/green-cabbage-vegetables-isolated-white_80510-721.jpg" class="card-img-top" alt="Veggie 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Cabbage</h5>
+                            <p class="card-text">Lorem ipsum dolor sit.</p>
+                            <p class="card-text">$3.99</p>
+                            <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-pane fade" id="cart">
+        <div class="container mt-4">
+            <p class="text-center">Oops, your cart is empty!</p>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
